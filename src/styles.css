@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#oneDivToRuleThemAll { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; width: 500px; }
+.eachPokemon { border-radius: 10px; border: 1px solid #c0c0c0; display: flex; flex-direction: row; align-items: center; width: 200px; text-align: left; margin: 10px; }
+.eachPokemonAvatar { padding: 5px 15px 5px 10px; }
+#pokeShowcase { 
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(./img/bunt.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  border-radius: 10px;
+  width: 305px; height: 200px; border: 4px ridge #c0c0c0 }
+#pokeShowcase img { min-height: 150px;  }
